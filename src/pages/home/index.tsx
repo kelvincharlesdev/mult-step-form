@@ -1,13 +1,17 @@
-import { useState } from "react";
+import { ToggleButton } from "../../components/ToggleButton";
 
-import Button from "../../components/Button";
 import * as Styled from "./styles";
 const Home = () => {
-  const [color, setColor] = useState("red");
-  console.log(color);
   return (
     <Styled.Container>
-      <Button text="click" variant="primary" />
+      <Styled.Header>
+        <span>LOGO</span>
+        <ToggleButton />
+      </Styled.Header>
+      <Styled.Content>
+        Conteúdo para o nosso site muito legal Conteúdo para o nosso site muito
+      </Styled.Content>
+      <Styled.Footer>Turma Raro Academy</Styled.Footer>
     </Styled.Container>
   );
 };

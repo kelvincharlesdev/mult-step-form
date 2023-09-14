@@ -1,21 +1,19 @@
-import { Theme } from "../types/theme";
+import { DefaultTheme } from "styled-components";
 
-export const light: Theme = {
+export const light: DefaultTheme = {
   colors: {
     primary: {
-      main: "#343090",
-      light: "#9995da",
-      dark: "#1f1b69",
+      main: "#c18c0d",
+      light: "#f7d154",
+      dark: "#8f5e00",
     },
     secondary: {
-      main: "#F5487F",
-      light: "#ff7fbf",
-      dark: "#c7004c",
+      main: "#f06c1f",
+      light: "#f79a5d",
+      dark: "#a63f00",
     },
     error: {
       main: "#FF1010",
-      light: "#ff7fbf",
-      dark: "#c7004c",
     },
     warning: {
       main: "#FAC736",
@@ -27,13 +25,17 @@ export const light: Theme = {
       main: "#1fa858",
     },
     background: {
-      primary: "#F2F2F2",
-      secondary: "#ffffff",
+      main: "#F2F2F2",
+      light: "#ffffff",
+      dark: "#d9d9d9",
     },
     text: {
-      primary: "#0d0d0d",
-      secondary: "#404040",
+      main: "#004793",
+      light: "#0761bf",
+      dark: "#003063",
     },
+    white: "#ffffff",
+    black: "#000000",
   },
   fonts: {
     family: {
@@ -63,40 +65,19 @@ export const light: Theme = {
   },
 };
 
-export const dark: Theme = {
+export const dark: DefaultTheme = {
   ...light,
   colors: {
-    primary: {
-      main: "#F5487F",
-      light: "#ff7fbf",
-      dark: "#c7004c",
-    },
-    secondary: {
-      main: "#343090",
-      light: "#9995da",
-      dark: "#1f1b69",
-    },
-    error: {
-      main: "#FF1010",
-      light: "#ff7fbf",
-      dark: "#c7004c",
-    },
-    warning: {
-      main: "#FAC736",
-    },
-    info: {
-      main: "#58d5ee",
-    },
-    success: {
-      main: "#1fa858",
-    },
+    ...light.colors,
     background: {
-      primary: "#0d0d0d",
-      secondary: "#404040",
+      main: "#1c1c1c",
+      light: "#404040",
+      dark: "#0d0d0d",
     },
     text: {
-      primary: "#F2F2F2",
-      secondary: "#ffffff",
+      main: "#F2F2F2",
+      light: "#ffffff",
+      dark: "#d9d9d9",
     },
   },
 };
