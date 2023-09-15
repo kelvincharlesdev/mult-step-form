@@ -32,13 +32,15 @@ export const Content = styled.main`
 `;
 
 export const Footer = styled.footer`
-  /* background: ${({ theme }) => theme.colors.background.main}; */
   display: flex;
   justify-content: center;
+  align-items: center;
   background: blue;
   padding: ${({ theme }) => theme.spacing.small};
   background: yellow;
 
   background: ${({ theme }) => theme.colors.background.dark};
   color: ${({ theme }) => theme.colors.text.main};
+
+  font-size: ${({ theme }) => theme.fonts.size.xs};
 `;

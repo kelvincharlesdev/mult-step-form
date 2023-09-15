@@ -8,7 +8,7 @@ export const ToggleButton = () => {
 
   return (
     <Styled.Button onClick={toggle}>
-      Trocar para tema: {theme === "light" ? "Dark" : "Light"}
+      {theme === "light" ? <Styled.Moon /> : <Styled.Sun />}
     </Styled.Button>
   );
 };

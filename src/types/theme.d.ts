@@ -7,9 +7,11 @@ type ColorPalette = {
 };
 
 type FontSize = {
+  xs: string;
   small: string;
   medium: string;
   large: string;
+  xl: string;
 };
 
 type FontWeight = {

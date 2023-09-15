@@ -13,7 +13,7 @@ const GlobalStyles = createGlobalStyle`
     width: 100%;
     min-height: 100vh;
     font-size: 100%;
-    font-family: "Open Sans", "Roboto", "Helvetica", sans-serif;
+    font-family: ${({ theme }) => theme.fonts.family.primary};
     -webkit-font-smoothing: antialiased;
 
     button {

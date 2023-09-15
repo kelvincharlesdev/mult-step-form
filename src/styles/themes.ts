@@ -3,9 +3,9 @@ import { DefaultTheme } from "styled-components";
 export const light: DefaultTheme = {
   colors: {
     primary: {
-      main: "#c18c0d",
-      light: "#f7d154",
-      dark: "#8f5e00",
+      main: "#d8cb13",
+      light: "#e7e073",
+      dark: "#c4b703",
     },
     secondary: {
       main: "#f06c1f",
@@ -39,13 +39,15 @@ export const light: DefaultTheme = {
   },
   fonts: {
     family: {
-      primary: "Roboto, sans-serif",
+      primary: "Inter, Roboto, sans-serif",
       secondary: "Montserrat, sans-serif",
     },
     size: {
+      xs: "1rem",
       small: "1.2rem",
       medium: "1.6rem",
       large: "2.4rem",
+      xl: "3.2rem",
     },
     weight: {
       light: 300,
