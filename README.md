@@ -64,10 +64,35 @@ Link da documentação da API: <https://profile-api-vyah.onrender.com/api-docs/>
 - Uso obrigatório do styled components para estilos
 - Boas práticas de código, estilo e organização
 - Entregar a atividade através do link do repositório do gitlab no classroom;
-- Aplicar feedback ao usário de que step do form está usando estilo e texto;
+- Aplicar feedback ao usuário de que step do form está usando estilo e texto;
 
 ## Dicas
 
 - Não há necessidade de gitflow, então foquem na atividade
 - Comecem pelo formulário e pela parte funcional com validação, depois partam para os steps
 - Pode usar, caso se faça necessário, uso de libs externas
+- Fiquem livrem para personalizar como desejar, mas não esqueçam de seguir as regras de negócio
+
+## Repositório
+
+- Dê o fork no seguinte repositório: <https://git.raroacademy.com.br/turmas-react/react-turma2/react2-alunos/pratica-semana-09>
+
+- Depois o clone:
+
+```bash
+git clone https://git.raroacademy.com.br/turmas-react/react-turma2/react2-alunos/pratica-semana-09
+```
+
+- Instale as dependências:
+
+```bash
+npm install
+```
+
+Duplique o arquivo `.env.example` e renomeie para `.env`.
+
+- Rode o projeto:
+
+```bash
+npm run dev
+```
