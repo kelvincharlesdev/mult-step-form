@@ -23,24 +23,8 @@ const dataForm: FormDados = {
   tech_ids: [],
   hasExperience: "não",
   hasCompetence: "nao",
-  experiences_attributes: [
-    // {
-    //   title: "",
-    //   company_name: "",
-    //   start_date: "",
-    //   end_date: "",
-    //   function_performed: "",
-    // },
-  ],
-  studies_attributes: [
-    // {
-    //   title: "",
-    //   institution: "",
-    //   link: "",
-    //   start_date: "",
-    //   end_date: "",
-    // },
-  ],
+  experiences_attributes: [],
+  studies_attributes: [],
 };
 
 export const MultiStepForm = () => {
